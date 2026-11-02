@@ -38,5 +38,5 @@ qa:
   browser_smoke: false
   screenshots: false
 github:
-  repo: demo-demo-autospa
+  repo: demo-autospa
   visibility: public
