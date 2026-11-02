@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare four AutoSpa automotive website concepts in one portable showcase.">
+  <meta name="theme-color" content="#111214">
+  <title>AutoSpa Template Showcase</title>
+  <link rel="stylesheet" href="showcase.css?v=__BUILD_VERSION__">
+</head>
+<body>
+  <a class="skip-link" href="#templatePreview">Skip to website preview</a>
+
+  <header class="showcase-bar" aria-label="Template preview controls">
+    <div class="showcase-identity">
+      <span class="showcase-mark" aria-hidden="true">AG</span>
+      <span class="showcase-title">
+        <strong>AutoSpa concepts</strong>
+        <small id="previewStatus" aria-live="polite">Previewing Precision</small>
+      </span>
+    </div>
+
+    <nav class="template-tabs" aria-label="Choose a website template">
+      <button class="template-tab" type="button" data-template="monarch" aria-pressed="false">
+        <span>01</span> Monarch
+      </button>
+      <button class="template-tab" type="button" data-template="aurelia" aria-pressed="false">
+        <span>02</span> Aurelia
+      </button>
+      <button class="template-tab" type="button" data-template="obsidian" aria-pressed="false">
+        <span>03</span> Obsidian
+      </button>
+      <button class="template-tab" type="button" data-template="precision" aria-pressed="true">
+        <span>04</span> Precision
+      </button>
+    </nav>
+
+    <a class="open-template" id="openTemplate" href="04-Precision/index.html" target="_blank" rel="noopener">
+      Open full page <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main class="preview-shell" id="previewShell">
+    <iframe
+      id="templatePreview"
+      name="templatePreview"
+      src="04-Precision/index.html"
+      title="Precision automotive website template preview"
+      loading="eager">
+    </iframe>
+  </main>
+
+  <noscript>
+    <div class="no-script">
+      JavaScript is needed for the switcher. Open a template directly:
+      <a href="01-monarch/index.html">Monarch</a>,
+      <a href="02-aurelia/index.html">Aurelia</a>,
+      <a href="03-obsidian/index.html">Obsidian</a>, or
+      <a href="04-Precision/index.html">Precision</a>.
+    </div>
+  </noscript>
+
+  <script src="showcase.js?v=__BUILD_VERSION__"></script>
+</body>
+</html>

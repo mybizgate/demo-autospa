@@ -1,0 +1,42 @@
+# MyBizGate site configuration. The slug is the permanent identity; the domain may change later.
+client:
+  name: BizGate Auto Spa
+  slug: demo-autospa
+template:
+  id: automotive/demo-autospa
+  version: null
+platform_ref: v1.3.0
+domain:
+  type: subdomain
+  primary: demo-autospa.mybizgate.com
+business:
+  whatsapp: '+601148121239'
+  email: sales@mybizgate.com
+  address: Kampung Pandan , 55100 Kuala Lumpur
+  phone: '+601148121239'
+  opening_hours: 9am - 10pm
+  short_name: BizGate Auto
+  locality: Kuala Lumpur
+hosting:
+  deploy_dir: public_html/demo/demo-autospa/
+  ftp_account: dedicated
+site:
+  kind: demo
+  environment: production
+  production_url: https://demo-autospa.mybizgate.com
+  identity: BizGate Auto Spa
+build:
+  exclude: []
+  images:
+    convert: true
+    quality: 82
+    max_width: 1920
+    preserve: []
+  cache_bust: true
+qa:
+  lighthouse: false
+  browser_smoke: false
+  screenshots: false
+github:
+  repo: demo-demo-autospa
+  visibility: public
