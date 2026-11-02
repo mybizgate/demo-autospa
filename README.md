@@ -1,10 +1,10 @@
 # BizGate Auto Spa
 
-MyBizGate website for **BizGate Auto Spa** (slug `demo-autospa`).
+MyBizGate website for **BizGate Auto Spa** (slug `autospa`).
 
 - Source stays readable in Git; production artifacts are built into `dist/` by the shared MyBizGate platform.
 - `main` is development, `deploy` is production. Pushing to `deploy` builds and deploys automatically.
-- Hosting target: `public_html/demo/demo-autospa/` → https://demo-autospa.mybizgate.com
+- Hosting target: `public_html/demo/autospa/` → https://demo-autospa.mybizgate.com
 - Configuration: `site.config.yml`.
 
 ## Local preview

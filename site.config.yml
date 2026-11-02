@@ -1,7 +1,7 @@
 # MyBizGate site configuration. The slug is the permanent identity; the domain may change later.
 client:
   name: BizGate Auto Spa
-  slug: demo-autospa
+  slug: autospa
 template:
   id: automotive/demo-autospa
   version: null
@@ -18,7 +18,7 @@ business:
   short_name: BizGate Auto
   locality: Kuala Lumpur
 hosting:
-  deploy_dir: public_html/demo/demo-autospa/
+  deploy_dir: public_html/demo/autospa/
   ftp_account: dedicated
 site:
   kind: demo
