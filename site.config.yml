@@ -10,10 +10,10 @@ domain:
   type: subdomain
   primary: demo-autospa.mybizgate.com
 business:
-  whatsapp: '+601148121239'
+  whatsapp: '+601158121239'
   email: sales@mybizgate.com
   address: Kampung Pandan , 55100 Kuala Lumpur
-  phone: '+601148121239'
+  phone: '+601158121239'
   opening_hours: 9am - 10pm
   short_name: BizGate Auto
   locality: Kuala Lumpur
