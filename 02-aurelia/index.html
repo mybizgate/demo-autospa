@@ -9,12 +9,13 @@
   <meta property="og:description" content="Paint correction, ceramic coating and interior care at our Kampung Pandan studio. Tell us about your car and we will recommend only what it needs.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/hero-1200.webp">
+  <meta name="robots" content="noindex, nofollow">
   <title>Auto Gate Car Saloon | Detailing and Ceramic Protection in Kuala Lumpur</title>
+  <link rel="canonical" href="https://demo-autospa.mybizgate.com/?template=aurelia">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Hanken+Grotesk:wght@400;500;600&display=swap">
-  <link rel="preload" as="image" type="image/avif" imagesrcset="assets/hero-800.avif 800w, assets/hero-1200.avif 1200w, assets/hero-1600.avif 1600w" imagesizes="100vw">
-  <link rel="stylesheet" href="style.css?v=__BUILD_VERSION__">
+  <link rel="stylesheet" href="style.css?v=__BUILD_VERSION__&amp;rev=5">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -34,42 +35,71 @@
         <a href="#process">How it works</a>
         <a href="#packages">Packages</a>
         <a href="#gallery">Gallery</a>
+        <a href="#faqs">FAQs</a>
         <a href="#location">Visit</a>
-        <a class="btn btn-primary btn-nav" href="#booking">Book an appointment</a>
+        <a class="btn btn-primary btn-nav" href="#booking">Get a quote</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
     <section class="hero" id="top" aria-labelledby="heroTitle">
-      <picture class="hero-media">
-        <source type="image/avif" srcset="assets/hero-800.avif 800w, assets/hero-1200.avif 1200w, assets/hero-1600.avif 1600w" sizes="100vw">
-        <source type="image/webp" srcset="assets/hero-800.webp 800w, assets/hero-1200.webp 1200w, assets/hero-1600.webp 1600w" sizes="100vw">
-        <img src="assets/hero.webp" width="1600" height="900" alt="A freshly detailed black sedan under soft studio lighting, its paint reflecting the room" fetchpriority="high" decoding="async">
-      </picture>
-      <div class="container hero-content">
-        <h1 id="heroTitle">Detailing done with patience, in Kuala Lumpur.</h1>
-        <p class="hero-lead">Paint correction, ceramic coating and interior care at our Kampung Pandan studio. Tell us about your car and we will recommend only what it needs.</p>
-        <div class="hero-actions">
-          <a class="btn btn-light" href="#booking">Book an appointment</a>
-          <a class="btn btn-outline-light" href="#booking" data-wa-link rel="noopener" target="_blank">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Local detailing studio · Kampung Pandan</p>
+          <h1 id="heroTitle">Straightforward car care, clearly explained.</h1>
+          <p class="hero-lead">From a careful maintenance detail to paint correction and ceramic coating, we help you choose only what your car needs.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">Get a quote</a>
+            <a class="btn btn-secondary" href="#packages">See prices</a>
+          </div>
+          <a class="hero-whatsapp" href="#booking" data-wa-link rel="noopener" target="_blank">
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.2a9.8 9.8 0 0 0-8.4 14.8L2.2 21.8l5-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.9a8.1 8.1 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 1 1 12 20.1Zm4.5-6c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.9 2.8 4.5 4 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
-            Chat on WhatsApp
+            Prefer a quick chat? Message us on WhatsApp
           </a>
+          <ul class="hero-facts" aria-label="Studio information">
+            <li><strong>9am–10pm</strong><span>Opening hours</span></li>
+            <li><strong>WhatsApp first</strong><span>Appointment confirmation</span></li>
+          </ul>
         </div>
-        <dl class="hero-facts">
-          <div><dt>Studio</dt><dd>Kampung Pandan, Kuala Lumpur</dd></div>
-          <div><dt>Hours</dt><dd>9am to 10pm</dd></div>
-          <div><dt>Appointments</dt><dd>Confirmed on WhatsApp</dd></div>
-        </dl>
+        <figure class="hero-media">
+          <picture>
+            <source type="image/avif" srcset="assets/hero-800.avif 800w, assets/hero-1200.avif 1200w, assets/hero-1600.avif 1600w" sizes="(max-width: 900px) 100vw, 52vw">
+            <source type="image/webp" srcset="assets/hero-800.webp 800w, assets/hero-1200.webp 1200w, assets/hero-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 52vw">
+            <img src="assets/hero.webp" width="1600" height="900" alt="A freshly detailed black sedan under soft studio lighting, its paint reflecting the room" fetchpriority="high" decoding="async">
+          </picture>
+          <figcaption>Concept image for this demo</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section class="quick-quote" aria-labelledby="quickQuoteTitle">
+      <div class="container quick-quote-grid">
+        <div class="quick-quote-copy">
+          <p class="eyebrow">Quick price guide</p>
+          <h2 id="quickQuoteTitle">Pick a starting point</h2>
+          <p>Choose one to prefill the enquiry form. Final pricing is agreed after the car is inspected.</p>
+        </div>
+        <div class="quick-options">
+          <button type="button" data-select-service="Everyday Detail">
+            <span>Everyday Detail</span><strong>From RM149</strong>
+          </button>
+          <button type="button" data-select-service="Gloss Revival">
+            <span>Gloss Revival</span><strong>From RM499</strong>
+          </button>
+          <button type="button" data-select-service="Platinum Shield">
+            <span>Platinum Shield</span><strong>From RM1,299</strong>
+          </button>
+        </div>
+      </div>
+      <p class="container quick-note">Illustrative demo prices—not a confirmed quote.</p>
     </section>
 
     <section class="section intro" id="why" aria-labelledby="whyTitle">
       <div class="container intro-grid">
-        <h2 id="whyTitle" class="statement">We would rather do fewer cars, and do each one properly.</h2>
+        <h2 id="whyTitle" class="statement">Good car care should be easy to understand.</h2>
         <div class="intro-points">
-          <p><strong>Inspection before any quote.</strong> We look at the paint, the interior and the wheels with you, so the recommendation is based on the car, not a menu.</p>
+          <p><strong>See the car before the final quote.</strong> We look at the paint, interior and wheels with you, because condition and vehicle size affect the work required.</p>
           <p><strong>Only what the car needs.</strong> A well-kept car may need a maintenance detail rather than correction. We will say so.</p>
           <p><strong>Aftercare you can follow.</strong> Every handover comes with plain advice on washing and keeping the finish, whatever package you choose.</p>
         </div>
@@ -86,27 +116,29 @@
           </picture>
         </div>
         <div class="services-list">
+          <p class="eyebrow">What we can help with</p>
           <h2 id="servicesTitle">Services</h2>
           <article class="service">
-            <h3>Ceramic coating and paint protection</h3>
+            <div class="service-heading"><h3>Ceramic coating and paint protection</h3><span>From RM1,299*</span></div>
             <p>Multi-stage decontamination and preparation, then a ceramic coating that holds gloss, resists water spotting and makes routine washing easier.</p>
             <button class="text-link" type="button" data-select-service="Coating Consultation">Ask about coating</button>
           </article>
           <article class="service">
-            <h3>Paint correction</h3>
+            <div class="service-heading"><h3>Paint correction</h3><span>From RM499*</span></div>
             <p>Machine polishing to reduce swirl marks, light scratches and haze, returning clarity and depth to the paint before any protection goes on.</p>
             <button class="text-link" type="button" data-select-service="Gloss Revival">Ask about correction</button>
           </article>
           <article class="service">
-            <h3>Interior refinement</h3>
+            <div class="service-heading"><h3>Interior refinement</h3><span>Quote after inspection</span></div>
             <p>A deep clean of seats, carpets, trim and the touchpoints you use every day, with leather cleaned and conditioned rather than just wiped.</p>
             <button class="text-link" type="button" data-select-service="Interior Refinement">Ask about interior care</button>
           </article>
           <article class="service">
-            <h3>Maintenance detail</h3>
+            <div class="service-heading"><h3>Maintenance detail</h3><span>From RM149*</span></div>
             <p>A careful hand wash, light decontamination and a tidy interior, tyre and trim finish. The right choice for a car that is already well looked after.</p>
             <button class="text-link" type="button" data-select-service="Everyday Detail">Ask about maintenance</button>
           </article>
+          <p class="service-note">*Illustrative demo starting prices. Vehicle size, condition and requested work affect the final quote.</p>
         </div>
       </div>
     </section>
@@ -158,6 +190,7 @@
             <button class="btn btn-secondary package-select" type="button" data-select-service="Everyday Detail">Choose Everyday Detail</button>
           </article>
           <article class="package featured">
+            <span class="package-tag">Full protection option</span>
             <h3>Platinum Shield</h3>
             <p class="package-intro">Full preparation and ceramic coating for lasting protection.</p>
             <p class="price"><span class="price-from">from</span> RM1,299</p>
@@ -207,9 +240,18 @@
     <section class="section gallery" id="gallery" aria-labelledby="galleryTitle">
       <div class="container">
         <div class="gallery-head">
-          <h2 id="galleryTitle">In the studio</h2>
-          <p>Concept photography for this demo. Replace with the studio&rsquo;s own work before publishing.</p>
+          <div>
+            <p class="eyebrow">Work preview</p>
+            <h2 id="galleryTitle">Before &amp; after</h2>
+          </div>
+          <p>A real result gallery needs matching customer-approved photos. These honest placeholders show the intended comparison until those images are supplied.</p>
         </div>
+        <div class="comparison-placeholder" role="note" aria-label="Before and after image placeholders">
+          <div><span>Before</span><strong>Matching vehicle photo needed</strong></div>
+          <div><span>After</span><strong>Matching result photo needed</strong></div>
+          <p>Recommended: same angle, lighting and vehicle, with customer permission.</p>
+        </div>
+        <h3 class="gallery-subtitle">Demo studio imagery</h3>
         <div class="gallery-grid">
           <figure class="gallery-item tall">
             <picture>
@@ -239,15 +281,48 @@
       </div>
     </section>
 
+    <section class="section faqs" id="faqs" aria-labelledby="faqTitle">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow">Helpful answers</p>
+          <h2 id="faqTitle">Before you enquire</h2>
+          <p class="faq-intro">No hard sell and no instant “confirmed” booking. Share the car and the result you want, then the studio can advise the next step.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How long will the service take?</summary>
+            <p>Timing depends on the vehicle condition and selected work. Ask on WhatsApp and confirm the expected handover time before your appointment.</p>
+          </details>
+          <details>
+            <summary>What affects the final price?</summary>
+            <p>Vehicle size, paint or interior condition, preparation required and the chosen protection all affect the quote. The prices shown here are illustrative starting points.</p>
+          </details>
+          <details>
+            <summary>Does sending the form confirm my appointment?</summary>
+            <p>No. The form prepares a WhatsApp enquiry. Your appointment is only confirmed after the studio replies and agrees on the date, time and work.</p>
+          </details>
+          <details>
+            <summary>What should I send for a faster quote?</summary>
+            <p>Include the vehicle make and model, the area you want improved and clear photos where useful. The studio may still recommend an in-person inspection.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <section class="section booking" id="booking" aria-labelledby="bookingTitle">
       <div class="container booking-grid">
         <div class="booking-copy">
-          <h2 id="bookingTitle">Book an appointment</h2>
-          <p>Share a few details and we will prepare a WhatsApp message for you to send. We reply during opening hours to confirm the slot.</p>
+          <p class="eyebrow">Low-friction enquiry</p>
+          <h2 id="bookingTitle">Get your quote on WhatsApp</h2>
+          <p>Share a few details and we will prepare a message for you to send. WhatsApp will open next; this does not confirm an appointment.</p>
           <dl class="contact-list">
             <div>
               <dt>WhatsApp</dt>
               <dd><a href="#booking" data-wa-link data-wa-display rel="noopener" target="_blank">+60 11-5812 1239</a></dd>
+            </div>
+            <div>
+              <dt>Call</dt>
+              <dd><a href="tel:+601158121239">+60 11-5812 1239</a></dd>
             </div>
             <div>
               <dt>Hours</dt>
@@ -259,7 +334,8 @@
             </div>
           </dl>
         </div>
-        <form class="booking-form" id="quoteForm" data-booking-form>
+        <form class="booking-form" id="quoteForm" data-booking-form aria-describedby="formHelp">
+          <p class="form-help" id="formHelp">Your draft is kept only in this browser tab while you prepare the enquiry.</p>
           <div class="form-grid">
             <label>
               <span>Your name</span>
@@ -304,7 +380,7 @@
             </label>
           </div>
           <div class="form-actions">
-            <button class="btn btn-primary" type="submit">Send enquiry on WhatsApp</button>
+            <button class="btn btn-primary" type="submit">Prepare WhatsApp enquiry</button>
             <p class="status" id="quoteStatus" data-form-status aria-live="polite"></p>
             <a data-wa-backup hidden href="#booking" rel="noopener" target="_blank">Open the WhatsApp enquiry</a>
           </div>
@@ -338,6 +414,11 @@
     </div>
   </footer>
 
-  <script src="script.js?v=__BUILD_VERSION__"></script>
+  <a class="mobile-whatsapp" href="#booking" data-wa-link rel="noopener" target="_blank">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.2a9.8 9.8 0 0 0-8.4 14.8L2.2 21.8l5-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.9a8.1 8.1 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 1 1 12 20.1Zm4.5-6c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.9 2.8 4.5 4 1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+    WhatsApp for a quote
+  </a>
+
+  <script src="script.js?v=__BUILD_VERSION__&amp;rev=5"></script>
 </body>
 </html>

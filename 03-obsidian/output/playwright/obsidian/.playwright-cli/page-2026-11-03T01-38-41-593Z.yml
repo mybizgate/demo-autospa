@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Auto Gate Car Saloon home" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+        - generic [aria-hidden] [ref=e6]: AG
+        - generic [ref=e7]:
+          - text: Auto Gate
+          - generic [ref=e8]: Car Saloon
+      - navigation "Primary navigation" [ref=e9]:
+        - link "Services" [ref=e10] [cursor=pointer]:
+          - /url: "#services"
+        - link "Packages" [ref=e11] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Gallery" [ref=e12] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: "#booking"
+      - link "Book Appointment" [ref=e15] [cursor=pointer]:
+        - /url: "#booking"
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: AUTO GATE CAR SALOON
+        - heading "Precision Detailing. A Finish Worth Protecting." [level=1] [ref=e21]
+        - paragraph [ref=e22]: Ceramic coating, paint correction and interior refinement with premium care for every vehicle.
+        - generic [ref=e23]:
+          - link "Book Appointment" [ref=e24] [cursor=pointer]:
+            - /url: "#booking"
+          - link "Explore Services" [ref=e25] [cursor=pointer]:
+            - /url: "#services"
+        - generic "Service highlights" [ref=e26]:
+          - generic [ref=e27]: Condition-led care
+          - generic [ref=e28]: Clear service guidance
+          - generic [ref=e29]: By appointment
+      - figure "PAINTWORK · INTERIOR · PROTECTION Careful preparation. Refined results." [ref=e30]:
+        - img "Black performance saloon in a professional detailing studio" [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33]: PAINTWORK · INTERIOR · PROTECTION
+          - strong [ref=e34]: Careful preparation. Refined results.
+    - region "Our detailing approach" [ref=e35]:
+      - generic [ref=e36]:
+        - article [ref=e37]:
+          - generic [aria-hidden] [ref=e38]: "01"
+          - generic [ref=e39]:
+            - heading "Inspect" [level=2] [ref=e40]
+            - paragraph [ref=e41]: We begin with the vehicle in front of us.
+        - article [ref=e42]:
+          - generic [aria-hidden] [ref=e43]: "02"
+          - generic [ref=e44]:
+            - heading "Refine" [level=2] [ref=e45]
+            - paragraph [ref=e46]: Each treatment follows a clear, careful process.
+        - article [ref=e47]:
+          - generic [aria-hidden] [ref=e48]: "03"
+          - generic [ref=e49]:
+            - heading "Protect" [level=2] [ref=e50]
+            - paragraph [ref=e51]: Aftercare guidance helps preserve the finish.
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: DETAILING SERVICES
+          - heading "Purposeful care, matched to your vehicle." [level=2] [ref=e56]
+        - paragraph [ref=e57]: From a considered refresh to paint correction and ceramic protection, each service starts with the finish you want to achieve.
+      - generic [ref=e58]:
+        - article [ref=e59]:
+          - img "Clean paintwork under detailing studio lights" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: "01"
+            - heading "Exterior Detailing" [level=3] [ref=e63]
+            - paragraph [ref=e64]: A careful wash and finish enhancement that restores a crisp, well-presented exterior.
+            - button "Enquire about exterior care" [ref=e65] [cursor=pointer]:
+              - text: Enquire about exterior care
+              - generic [aria-hidden] [ref=e66]: →
+        - article [ref=e67]:
+          - img "Professional car-care studio prepared for interior refinement" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: "02"
+            - heading "Interior Refinement" [level=3] [ref=e71]
+            - paragraph [ref=e72]: A focused cabin reset for cleaner surfaces, refreshed details and a more considered drive.
+            - button "Enquire about interior care" [ref=e73] [cursor=pointer]:
+              - text: Enquire about interior care
+              - generic [aria-hidden] [ref=e74]: →
+        - article [ref=e75]:
+          - img "Glossy vehicle bodywork prepared for ceramic protection" [ref=e76]
+          - generic [ref=e77]:
+            - generic [ref=e78]: "03"
+            - heading "Ceramic Coating" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Surface preparation and ceramic protection designed to make ongoing finish care easier.
+            - button "Discuss ceramic protection" [ref=e81] [cursor=pointer]:
+              - text: Discuss ceramic protection
+              - generic [aria-hidden] [ref=e82]: →
+        - article [ref=e83]:
+          - img "Reflective wheel and bodywork finish after professional care" [ref=e84]
+          - generic [ref=e85]:
+            - generic [ref=e86]: "04"
+            - heading "Paint Correction" [level=3] [ref=e87]
+            - paragraph [ref=e88]: A measured refinement process for improving gloss and reducing visible paint imperfections.
+            - button "Explore paint refinement" [ref=e89] [cursor=pointer]:
+              - text: Explore paint refinement
+              - generic [aria-hidden] [ref=e90]: →
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]: WHY AUTO GATE
+        - heading "A clear process. Care you can see." [level=2] [ref=e95]
+        - paragraph [ref=e96]: Premium detailing should feel considered from the first conversation to the final handover. We assess the vehicle, explain the service scope and keep the focus on workmanship that suits its condition.
+        - link "Tell us about your vehicle" [ref=e97] [cursor=pointer]:
+          - /url: "#booking"
+      - generic [ref=e98]:
+        - article [ref=e99]:
+          - generic [ref=e100]: "01"
+          - generic [ref=e101]:
+            - heading "Condition-led assessment" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Recommendations begin with your vehicle’s surfaces, use and intended result.
+        - article [ref=e104]:
+          - generic [ref=e105]: "02"
+          - generic [ref=e106]:
+            - heading "Professional preparation" [level=3] [ref=e107]
+            - paragraph [ref=e108]: Each stage is structured around careful preparation, treatment and final inspection.
+        - article [ref=e109]:
+          - generic [ref=e110]: "03"
+          - generic [ref=e111]:
+            - heading "Thoughtful communication" [level=3] [ref=e112]
+            - paragraph [ref=e113]: You receive clear service guidance before work and practical aftercare at handover.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: PACKAGES & PRICING
+          - heading "Choose the level of care that fits." [level=2] [ref=e118]
+        - paragraph [ref=e119]: Compare the current proposal packages below, then send your selection for a personal appointment response.
+      - generic [ref=e120]:
+        - article [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: For routine presentation
+            - heading "Executive Refresh" [level=3] [ref=e124]
+            - generic [ref=e125]: RM199
+            - paragraph [ref=e126]: A polished reset for vehicles that need a considered exterior and interior refresh.
+            - list [ref=e127]:
+              - listitem [ref=e128]: ◆ Luxury-safe exterior wash
+              - listitem [ref=e129]: ◆ Interior reset and final presentation
+              - listitem [ref=e130]: ◆ Finish enhancement details
+          - button "Choose Executive Refresh" [ref=e131] [cursor=pointer]
+        - article [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: For complete protection
+            - heading "Obsidian Reserve" [level=3] [ref=e135]
+            - generic [ref=e136]: RM1,599
+            - paragraph [ref=e137]: A preparation-led package for drivers seeking correction-ready care and ceramic protection.
+            - list [ref=e138]:
+              - listitem [ref=e139]: ◆ Multi-stage surface preparation
+              - listitem [ref=e140]: ◆ Correction-ready premium workflow
+              - listitem [ref=e141]: ◆ Signature ceramic protection finish
+          - button "Choose Obsidian Reserve" [ref=e142] [cursor=pointer]
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: For improving visible gloss
+            - heading "Refined Gloss Recovery" [level=3] [ref=e146]
+            - generic [ref=e147]: RM699
+            - paragraph [ref=e148]: A finish-focused treatment for paintwork that would benefit from assessed refinement.
+            - list [ref=e149]:
+              - listitem [ref=e150]: ◆ Condition assessment
+              - listitem [ref=e151]: ◆ Paint refinement process
+              - listitem [ref=e152]: ◆ Protective final finish
+          - button "Choose Gloss Recovery" [ref=e153] [cursor=pointer]
+      - paragraph [ref=e154]: Prices shown are sample proposal values only. Confirm final pricing and inclusions with Auto Gate before booking.
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: STUDIO DETAILS
+        - heading "See the finish from every angle." [level=2] [ref=e158]
+        - paragraph [ref=e159]: Current concept imagery showing the paintwork, wheels and studio presentation used in this demo.
+      - generic [ref=e160]:
+        - figure "Paintwork finish" [ref=e161]:
+          - img "Close view of reflective black vehicle paintwork" [ref=e162]
+        - figure "Wheel and bodywork detail" [ref=e164]:
+          - img "Wheel and side panel reflecting studio lights" [ref=e165]
+        - figure "Studio presentation" [ref=e167]:
+          - img "Vehicle presented inside a professional detailing studio" [ref=e168]
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]: APPOINTMENT ENQUIRY
+        - heading "Let’s plan the right care for your vehicle." [level=2] [ref=e174]
+        - paragraph [ref=e175]: Share your vehicle, preferred service and timing. We will prepare your details for WhatsApp so the Auto Gate team can respond personally.
+        - generic [ref=e176]:
+          - generic [aria-hidden] [ref=e177]: i
+          - paragraph [ref=e178]: This sends an enquiry, not an automatic appointment confirmation. Your appointment is confirmed only after the team replies.
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e182]: Your name
+            - textbox "Your name" [ref=e183]:
+              - /placeholder: Full name
+          - generic [ref=e184]:
+            - generic [ref=e185]: Mobile number
+            - textbox "Mobile number" [ref=e186]:
+              - /placeholder: 01x-xxxxxxx
+          - generic [ref=e187]:
+            - generic [ref=e188]: Vehicle
+            - textbox "Vehicle" [ref=e189]:
+              - /placeholder: Make and model
+          - generic [ref=e190]:
+            - generic [ref=e191]: Service / package
+            - combobox "Service / package" [ref=e192]:
+              - option "Select a service" [selected]
+              - option "Executive Refresh"
+              - option "Refined Gloss Recovery"
+              - option "Obsidian Reserve"
+              - option "Interior Luxe Reset"
+              - option "Ceramic Coating Consultation"
+          - generic [ref=e193]:
+            - generic [ref=e194]: Preferred date
+            - textbox "Preferred date" [ref=e195]
+          - generic [ref=e196]:
+            - generic [ref=e197]: Preferred time
+            - combobox "Preferred time" [ref=e198]:
+              - option "Select a time" [selected]
+              - option "9:00 AM"
+              - option "11:00 AM"
+              - option "2:00 PM"
+              - option "4:00 PM"
+          - generic [ref=e199]:
+            - generic [ref=e200]: Notes (optional)
+            - textbox "Notes (optional)" [ref=e201]:
+              - /placeholder: Tell us about the finish or result you are looking for
+        - button "Prepare WhatsApp Enquiry" [ref=e203] [cursor=pointer]
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]: VISIT THE STUDIO
+        - heading "Kampung Pandan, Kuala Lumpur." [level=2] [ref=e208]
+        - paragraph [ref=e209]: Visits are by appointment. Contact us before arriving so the team can prepare for your vehicle.
+        - generic [ref=e210]: MyBizGate, Kampung Pandan55100 Kuala Lumpur
+        - generic [ref=e211]:
+          - link "Get Directions" [ref=e212] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir/?api=1&destination=3.144827966176431,101.74171596840188
+          - link "WhatsApp +60 11-5812 1239" [ref=e213] [cursor=pointer]:
+            - /url: https://wa.me/601158121239
+            - text: WhatsApp +60 11-5812 1239
+            - generic [aria-hidden] [ref=e214]: →
+      - iframe [ref=e216]
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - text: READY WHEN YOU ARE
+        - heading "Give your vehicle the attention its finish deserves." [level=2] [ref=e220]
+      - link "Book Appointment" [ref=e221] [cursor=pointer]:
+        - /url: "#booking"
+  - contentinfo [ref=e222]:
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - link "Auto Gate Car Saloon home" [ref=e225] [cursor=pointer]:
+          - /url: "#top"
+          - generic [aria-hidden] [ref=e226]: AG
+          - generic [ref=e227]:
+            - text: Auto Gate
+            - generic [ref=e228]: Car Saloon
+        - paragraph [ref=e229]: Premium automotive detailing, paint refinement and ceramic protection in Kuala Lumpur.
+      - navigation "Footer navigation" [ref=e230]:
+        - strong [ref=e231]: Explore
+        - link "Services" [ref=e232] [cursor=pointer]:
+          - /url: "#services"
+        - link "Packages" [ref=e233] [cursor=pointer]:
+          - /url: "#packages"
+        - link "Gallery" [ref=e234] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "About" [ref=e235] [cursor=pointer]:
+          - /url: "#about"
+      - generic [ref=e236]:
+        - strong [ref=e237]: Contact
+        - link "+60 11-5812 1239" [ref=e238] [cursor=pointer]:
+          - /url: https://wa.me/601158121239
+        - generic [ref=e239]: Kampung Pandan, Kuala Lumpur
+        - link "Appointment enquiry" [ref=e240] [cursor=pointer]:
+          - /url: "#booking"
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - text: © 2026 Auto Gate Car Saloon demo by
+        - link "myBizGate" [ref=e243] [cursor=pointer]:
+          - /url: https://mybizgate.com/
+        - text: .
+      - generic [ref=e244]: Concept imagery and sample pricing are for demonstration. Confirm details before publishing.
